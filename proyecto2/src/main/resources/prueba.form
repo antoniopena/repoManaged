@@ -1,0 +1,23 @@
+
+<form id="1704111860">
+<property name="name" value="prueba.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="pruebasub_campo1" type="InputText" id="1697630210">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo1 (pruebasub)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="pruebasub_in/campo1"/>
+<property name="outputBinding" value="pruebasub_out/campo1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="pruebasub_campo2" type="InputText" id="2624517">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo2 (pruebasub)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="pruebasub_in/campo2"/>
+<property name="outputBinding" value="pruebasub_out/campo2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="pruebasub_in" name="#0000A0" type="dataModelerEntry" outId="pruebasub_out" value="demo.proyecto2.Prueba" id="pruebasub"/>
+</form>

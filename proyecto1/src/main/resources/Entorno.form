@@ -1,0 +1,76 @@
+
+<form id="203372820">
+<property name="name" value="Entorno.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="entorno_tipoEntorno" type="InputText" id="1917186313">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;tipoEntorno (entorno)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{test,TEST;pre,PRE;pro,PRO}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="entorno/tipoEntorno"/>
+<property name="outputBinding" value="entorno/tipoEntorno"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="entorno_config" type="CheckBox" id="1173365178">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;config (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/config"/>
+<property name="outputBinding" value="entorno/config"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="entorno_usuario" type="InputText" id="1877530829">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;usuario (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/usuario"/>
+<property name="outputBinding" value="entorno/usuario"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="entorno_password" type="InputText" id="1021685696">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;password (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/password"/>
+<property name="outputBinding" value="entorno/password"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="entorno_sid" type="InputText" id="2060571624">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sid (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/sid"/>
+<property name="outputBinding" value="entorno/sid"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="entorno_dataSource" type="InputText" id="203555925">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dataSource (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/dataSource"/>
+<property name="outputBinding" value="entorno/dataSource"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="entorno_volumen" type="InputTextBigDecimal" id="1564708285">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;volumen (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/volumen"/>
+<property name="outputBinding" value="entorno/volumen"/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<field position="7" name="entorno_servidores" bag-type="java.lang.String" type="MultipleInput" id="2049897315">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;servidores (entorno)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="entorno/servidores"/>
+<property name="outputBinding" value="entorno/servidores"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<dataHolder inputId="entorno" name="#FF54A7" type="dataModelerEntry" outId="entorno" value="demo.proyecto1.Entorno" id="entorno"/>
+</form>

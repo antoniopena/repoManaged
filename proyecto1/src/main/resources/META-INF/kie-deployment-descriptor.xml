@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deployment-descriptor xsi:schemaLocation="http://www.jboss.org/jbpm deployment-descriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <persistence-unit>org.jbpm.domain</persistence-unit>
+    <audit-persistence-unit>org.jbpm.domain</audit-persistence-unit>
+    <audit-mode>JPA</audit-mode>
+    <persistence-mode>JPA</persistence-mode>
+    <runtime-strategy>SINGLETON</runtime-strategy>
+    <marshalling-strategies>
+        <marshalling-strategy>
+            <resolver>mvel</resolver>
+            <identifier>new org.drools.persistence.jpa.marshaller.JPAPlaceholderResolverStrategy("demo:proyecto1:1.0.0-SNAPSHOT", classLoader)</identifier>
+            <parameters/>
+        </marshalling-strategy>
+    </marshalling-strategies>
+    <event-listeners/>
+    <task-event-listeners/>
+    <globals/>
+    <work-item-handlers>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new es.caixa.process.workitem.webservice.WebServiceCaixaWorkItemHandler(ksession, classLoader)</identifier>
+            <parameters/>
+            <name>WebServiceCaixa</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new es.caixa.process.workitem.email.EmailCaixaWorkItemHandler()</identifier>
+            <parameters/>
+            <name>EmailCaixa</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new es.caixa.process.workitem.java.JavaInvocationCaixaWorkItemHandler()</identifier>
+            <parameters/>
+            <name>InvocadorJavaCaixa</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new es.caixa.process.workitem.rest.RESTCaixaWorkItemHandler()</identifier>
+            <parameters/>
+            <name>RestCaixa</name>
+        </work-item-handler>
+    </work-item-handlers>
+    <environment-entries/>
+    <configurations/>
+    <required-roles/>
+    <remoteable-classes/>
+</deployment-descriptor>

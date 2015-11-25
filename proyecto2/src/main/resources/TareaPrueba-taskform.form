@@ -1,0 +1,26 @@
+
+<form id="1472543736">
+<property name="name" value="TareaPrueba-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="prueba_campo3" type="InputText" id="922690651">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo3 (prueba)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prueba_in/campo3"/>
+<property name="outputBinding" value="prueba_out/campo3"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="pruebaHijo" type="Subform" id="1991909170">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Subform1quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prueba_in/pruebaHijo"/>
+<property name="outputBinding" value="prueba_out/pruebaHijo"/>
+<property name="defaultSubform" value="prueba.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="prueba_in" name="#0000A0" type="dataModelerEntry" outId="prueba_out" value="demo.proyecto2.PruebaPadre" id="prueba"/>
+</form>

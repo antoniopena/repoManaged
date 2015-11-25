@@ -1,0 +1,15 @@
+
+<form id="1245844420">
+<property name="name" value="SeleccionaApp-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="seleccionAplicacion" type="SelectBox" id="1745155296">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;selecciona aplicacionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="out_application"/>
+<property name="customFieldType" value="es.caixa.process.formModeler.application.ApplicationSelectValueProvider"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="in_appList" name="#0000A0" type="basicType" outId="out_appList" value="java.lang.String" id="appList"/>
+</form>
